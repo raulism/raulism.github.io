@@ -22,7 +22,7 @@
 
 
 
-  <meta name="keywords" content="photo,test," />
+  <meta name="keywords" content="Hexo,Photo," />
 
 
 
@@ -33,7 +33,7 @@
   
 
   
-  <title> my photo test // Raulism's Blog </title>
+  <title> Hexo照片文章相关 // Raulism's Blog </title>
 </head>
 
 <body>
@@ -113,7 +113,7 @@
           
           
             
-              my photo test
+              Hexo照片文章相关
             
           
         </h1>
@@ -121,14 +121,14 @@
 
       <div class="post-meta">
         <span class="post-time">
-          发表于 2015-05-13
+          发表于 2015-05-15
         </span>
 
         
           <span class="post-category">
             &nbsp; | &nbsp; 分类于
             
-              <a href="/categories/测试用/">测试用</a>
+              <a href="/categories/Hexo/">Hexo</a>
 
               
               
@@ -141,8 +141,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2015/05/13/Gallery/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/13/Gallery/"></span>
+            <a href="/2015/05/15/Hexo照片文章相关/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/15/Hexo照片文章相关/"></span>
             </a>
           </span>
           
@@ -154,22 +154,33 @@
 
       
       
-        <div class="post-gallery">
-          
-            <a class="post-gallery-img fancybox" href="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg" rel="gallery_ci9ohffqu000ocf58b1eixekx">
-              <img src="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg" />
-            </a>
-          
-            <a class="post-gallery-img fancybox" href="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg" rel="gallery_ci9ohffqu000ocf58b1eixekx">
-              <img src="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg" />
-            </a>
-          
-        </div>
-      
 
       
-        <p>more?<br><a id="more"></a><br>nice<br><img src="http://ww1.sinaimg.cn/mw690/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg" alt="结构" title="gslk"><br>nice2<br><img src="http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg" alt="test"><br><img src="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" class="full-image"><br>&lt;!—</p>
-<p></p><p><br>    <a class="fancybox" href="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet" target="_blank" rel="external"><img src="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" alt=""><br>    </a><br>    <a class="fancybox" href="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp" target="_blank" rel="external"><img src="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" alt=""></a><br></p><br>—&gt;<br><!--<img src="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" class="post-gallery-img fancybox" />  --><br><!--<a href="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img src="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" /></a>--><br><!--<a href="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" class="fancybox">点我看图片</a>--><br><!--<a href="http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg" class="fancybox fancybox.iframe">Example</a>--><p></p>
+        <h2 id="Hexo照片文章相关">Hexo照片文章相关</h2><p>使用一下命令建立图片类文章</p>
+<pre><code class="bash">hexo new photo <span class="string">"your titile"</span>
+</code></pre>
+<p>或者直接新建一个 Markdown 文件。<br><a id="more"></a></p>
+<pre><code class="bash">layout: photo  
+
+title: 我的阅历  
+
+date: <span class="number">2085</span>-<span class="number">01</span>-<span class="number">16</span> <span class="number">07</span>:<span class="number">33</span>:<span class="number">44</span>  
+
+tags: [hexo]  
+
+photos:  
+- http://bruce.u.qiniudn.com/<span class="number">2013</span>/<span class="number">11</span>/<span class="number">27</span>/reading/photos-<span class="number">0</span>.jpg  
+- http://bruce.u.qiniudn.com/<span class="number">2013</span>/<span class="number">11</span>/<span class="number">27</span>/reading/photos-<span class="number">1</span>.jpg
+</code></pre>
+<p>Markdown里面添加图片代码</p>
+<pre><code class="html"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg"</span> <span class="attribute">class</span>=<span class="value">"fancybox"</span>&gt;</span>点我看图<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg"</span> <span class="attribute">class</span>=<span class="value">"fancybox"</span> <span class="attribute">rel</span>=<span class="value">"gallery"</span> <span class="attribute">title</span>=<span class="value">"Sample title 1"</span>&gt;</span><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg"</span> /&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"http://7xj2y5.com1.z0.glb.clouddn.com/me.jpg"</span> <span class="attribute">class</span>=<span class="value">"full-image"</span> /&gt;</span>
+
+![结构](http://ww1.sinaimg.cn/mw690/81b78497jw1emfgts2pt4j21hc0u0k1c.jpg  "gslk")
+</code></pre>
 
       
     </div>
@@ -178,9 +189,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/photo/"> #photo </a>
+            <a href="/tags/Hexo/"> #Hexo </a>
           
-            <a href="/tags/test/"> #test </a>
+            <a href="/tags/Photo/"> #Photo </a>
           
         </div>
       
@@ -209,8 +220,8 @@
     
       <div class="comments" id="comments">
         
-          <div class="ds-thread" data-thread-key="2015/05/13/Gallery/"
-               data-title="my photo test" data-url="http://121.40.141.73/2015/05/13/Gallery/">
+          <div class="ds-thread" data-thread-key="2015/05/15/Hexo照片文章相关/"
+               data-title="Hexo照片文章相关" data-url="http://121.40.141.73/2015/05/15/Hexo照片文章相关/">
           </div>
         
       </div>
@@ -275,7 +286,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -323,7 +334,7 @@
           <div class="post-toc">
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo照片文章相关"><span class="nav-number">1.</span> <span class="nav-text">Hexo照片文章相关</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
